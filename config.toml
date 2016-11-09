@@ -1,7 +1,43 @@
 baseurl = "http://carlesm.github.io/"
 title = "Restarting blogging, again"
 languageCode = "en-us"
-theme = "hugo_theme_robust"
+theme = "ghostwriter"
+disqusShortname = "carlesm"
+
+[Author]
+    name = "Carles Mateu"
+
 [Params]
-    disqusShortname = "carlesm"
     Author = "Carles Mateu"
+    intro = true
+    headline = "Blogging again...."
+    description = "Researcher and professor and hacker and master procrastinator, rumbling on science, bad science, sustainability, free software, and network security."
+    github = "https://github.com/carlesm"
+    gitlab = "https://gitlab.com/carlesm"
+    linkedin = "https://linkedin.com/in/XXX/"
+    gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/carlesm"
+    opengraph = true
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "http://about.me/carlesm"
+    weight = 4
