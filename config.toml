@@ -1,6 +1,7 @@
 baseurl = "http://carlesm.github.io/"
 title = "Restarting blogging, again"
 languageCode = "en-us"
+theme = "hugo_theme_robust"
 [Params]
     disqusShortname = "carlesm"
     Author = "Carles Mateu"
