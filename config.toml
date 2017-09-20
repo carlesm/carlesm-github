@@ -1,4 +1,4 @@
-baseurl = "http://carlesm.github.io/"
+baseurl = "https://carlesm.github.io/"
 title = "Restarting blogging, again"
 languageCode = "en-us"
 theme = "ghostwriter"
@@ -14,8 +14,8 @@ disqusShortname = "carlesm"
     description = "Researcher and professor and hacker and master procrastinator, rumbling on science, bad science, sustainability, free software, and network security."
     github = "https://github.com/carlesm"
     gitlab = "https://gitlab.com/carlesm"
-    linkedin = "https://linkedin.com/in/XXX/"
-    gplus = "https://google.com/+XXX"
+    linkedin = "https://linkedin.com/in/carlesm/"
+    gplus = "https://google.com/+CarlesMateu"
     twitter = "https://twitter.com/carlesm"
     opengraph = true
 
